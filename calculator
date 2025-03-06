@@ -12,9 +12,11 @@ def divide(x, y):
         return "Error! Division by zero."
     return x / y
 
+
 def modulus(x, y):
-    if y != 0:
-        return x % y
+    if y == 0:
+        return "Error! Modulus by zero."
+    return x % y
 
 def calculator():
     while True:
